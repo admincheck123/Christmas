@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TLINH</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+    
+<div class="container"> 
+    <div class="star"></div>
+    <div class="pressie">
+      <div class="cover"></div>
+      <div class="wrap"> </div>
+      <div class="ribbon"></div>
+    </div>
+    <div class="tree">
+      <div class="base"> </div>
+      <div class="layer">
+        <div class="line"> </div>
+        <div class="bauble one"></div></div>
+      
+      <div class="layer two">
+        <div class="line two"> </div>
+        <div class="bauble two"></div>
+        <div class="socks"> 
+          <div class="top"> </div>
+          <div class="foot"></div></div>
+        </div>
+      
+      <div class="layer three">
+        <div class="line three"> </div>
+        <div class="bauble three"></div>
+        <div class="socks two"> 
+          <div class="top"> </div>
+          <div class="foot two"></div></div>
+        </div>
+         </div>
+      
+      <div class="layer four">
+        <div class="bauble four"></div>
+        <div class="star two"></div>
+        <div class="line four"> </div> 
+         </div>
+         <script>
+            $('.container').on('mouseover', function(){
+          $('.bauble').addClass('light');
+          $('.star').addClass('star-light');
+        })
+        
+        $('.container').on('mouseout', function(){
+          $('.bauble').removeClass('light');
+        })
+          </script>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+    $('.container').on('mouseover', function(){
+  $('.bauble').addClass('light');
+  $('.star').addClass('star-light');
+})
+
+$('.container').on('mouseout', function(){
+  $('.bauble').removeClass('light');
+})
+  </script>
+</body>
+</html>
